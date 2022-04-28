@@ -1,3 +1,7 @@
+'use strict';
+
+// 1. TypeScript를 사용하는 이유
+
 {
   function add(num1: number, num2: number) {
     console.log(num1 + num2);
