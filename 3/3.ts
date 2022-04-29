@@ -89,3 +89,20 @@
   console.log(b); // { wheels: 4, color: green }
   b.start(); // Go!
 }
+
+{
+  // 여러개의 interface도 상속이 가능하다!
+  interface Car {
+    color: string;
+    wheels: number;
+    start(): void;
+  }
+
+  interface Toy {
+    name: string;
+  }
+
+  interface ToyCar extends Car, Toy {
+    price: number;
+  }
+}
