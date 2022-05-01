@@ -23,7 +23,7 @@
 
   user.age = 10;
   user.gender = 'male';
-  user.birthYear = 1990; // 수정 불가!
+  // user.birthYear = 1990; -> 수정 불가! (readonly)
 }
 
 {
